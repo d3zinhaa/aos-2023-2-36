@@ -4,7 +4,7 @@ import getUserModel from "./user";
 import getMessageModel from "./message";
 
 const sequelize = new Sequelize(process.env.DATABASE_URL, {
-  dialectModule: require(`pg`)
+      dialectModule: require('pg')
 });
 
 const models = {
